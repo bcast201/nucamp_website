@@ -1,17 +1,19 @@
 {
   "name": "nucampsite",
   "version": "1.0.0",
-  "description": "This is a website for the fictional compsites review site Nucamp",
+  "description": "This is a website for the fictional campsite, nucamp",
   "main": "index.js",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "Bryan Cast",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.12.0"
   },
   "dependencies": {
     "bootstrap": "^4.4.0",
